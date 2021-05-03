@@ -10,6 +10,9 @@ module.exports = {
                     200: "#888883",
                 },
             },
+            fontFamily: {
+                main: ['"New Tegomin"', '"serif"'],
+            },
         },
     },
     variants: {
