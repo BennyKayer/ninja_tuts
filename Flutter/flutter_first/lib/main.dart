@@ -18,7 +18,59 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[300],
       ),
 
+      /// #14 Expanded Widgets
+      body: Row(
+        children: <Widget>[
+          Expanded(flex: 4, child: Image.asset('assets/space-2.jpg')),
+          Expanded(
+            flex: 3,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.cyan,
+              child: Text('1'),
+            ),
+          ),
+          Expanded(
+            flex: 2,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.indigo,
+              child: Text('2'),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(30.0),
+              color: Colors.amberAccent,
+              child: Text('3'),
+            ),
+          ),
+        ],
+      ),
 
+      /// Column stuff
+      // body: Column(
+      //   mainAxisAlignment: MainAxisAlignment.center,
+      //   crossAxisAlignment: CrossAxisAlignment.start,
+      //   children: [
+      //     Container(
+      //       padding: EdgeInsets.all(30.0),
+      //       color: Colors.teal,
+      //       child: Text("xd"),
+      //     ),
+      //     Container(
+      //       padding: EdgeInsets.all(20.0),
+      //       color: Colors.cyan,
+      //       child: Text("ok"),
+      //     ),
+      //     Container(
+      //       padding: EdgeInsets.all(40.0),
+      //       color: Colors.indigo,
+      //       child: Text('kk'),
+      //     ),
+      //   ],
+      // ),
 
       /// Row stuff
       // body: Row(
