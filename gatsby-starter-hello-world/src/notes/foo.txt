@@ -1,0 +1,8 @@
+query Meta {
+  allFile(filter: {sourceInstanceName: {eq: "projects"}}) {
+    nodes {
+      relativePath
+      relativeDirectory
+    }
+  }
+}
